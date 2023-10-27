@@ -32,3 +32,11 @@ sudo make install
 then check the version Of OpenCV to verify the installation:
 
 pkg-config --modversion opencv4
+
+
+
+
+
+PASTE
+
+/bin/FaceLandmarkVid -f "../samples/changeLighting.wmv" -f "../samples/2015-10-15-15-14.avi"
