@@ -33,7 +33,21 @@ then check the version Of OpenCV to verify the installation:
 
 pkg-config --modversion opencv4
 
+for videos:
 
+./bin/FaceLandmarkVid -f "../samples/changeLighting.wmv" -f "../samples/2015-10-15-15-14.avi"
+
+for images:
+
+./bin/FaceLandmarkImg -fdir "../samples/" -wild
+
+for multiple faces in videos:
+
+./bin/FaceLandmarkVidMulti -f ../samples/multi_face.avi
+
+for feature extraction (facial landmarks, head pose, AUs, gaze and HOG and similarity aligned faces):
+
+./bin/FeatureExtraction -verbose -f "../samples/default.wmv"
 
 
 
